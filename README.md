@@ -1,6 +1,6 @@
 # Yandex Disk File Upload
 
-This is a simple script to upload files to Yandex Disk. It is written in Go and uses the [Yandex Disk REST API][1] to upload files to your Yandex Disk account.
+This is a simple script to authenticate yourself and upload files to Yandex Disk. It is written in Go and uses the [Yandex Disk REST API][1] to upload files to your Yandex Disk account.
 
 ## Setup
 
@@ -17,7 +17,7 @@ go get
 4. Run the script with the following command:
 
 ```bash
-go run main.go
+go run main.go source/file.txt app:/remote/file.txt
 ```
 
 ## Contributing
