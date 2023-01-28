@@ -1,4 +1,4 @@
-# Yandex Disk Fileupload
+# Yandex Disk File Upload
 
 This is a simple script to upload files to Yandex Disk. It is written in Go and uses the [Yandex Disk REST API][1] to upload files to your Yandex Disk account.
 

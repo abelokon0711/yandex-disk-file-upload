@@ -1,4 +1,4 @@
-module yandex-disk-fileupload
+module yandex-disk-file-upload
 
 go 1.19
 
