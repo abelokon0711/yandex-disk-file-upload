@@ -2,7 +2,7 @@
 
 This is a simple script to authenticate yourself and upload files to Yandex Disk. It is written in Go and uses the [Yandex Disk REST API][1] to upload files to your Yandex Disk account.
 
-## Setup
+## Getting Started
 
 1. Create a new application in the [Yandex Disk OAuth][2] page. You will need to provide a redirect URL. Since this script is meant to be run locally for now, we use `http://localhost:8080/callback` as the redirect URL.
 
@@ -18,6 +18,12 @@ go get
 
 ```bash
 go run main.go source/file.txt app:/remote/file.txt
+```
+
+## Build Windows executable
+
+```bash
+GOOS=windows GOARCH=amd64 go build
 ```
 
 ## Contributing
